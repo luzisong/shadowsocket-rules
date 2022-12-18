@@ -1,0 +1,1 @@
+# shadowsocket-rules
