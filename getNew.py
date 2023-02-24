@@ -3,7 +3,7 @@ import requests
 import subprocess
 
 
-save_path = "./new"
+save_path = "new.txt"
 
 url = 'https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/shadowrocket_basic.conf'
 
@@ -13,7 +13,7 @@ subprocess.call(["wget", url, "-P", save_path])
 f = open('basic.conf','r')
 str1 = f.read()
 f.close()
-f = open('new),'r')
+f = open(save_path),'r')
 str2 = r.read()
 f.close()
 
