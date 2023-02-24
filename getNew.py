@@ -3,7 +3,7 @@ import requests
 import subprocess
 
 
-save_path = "new.txt"
+save_path = "./new.txt"
 
 url = 'https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/shadowrocket_basic.conf'
 
