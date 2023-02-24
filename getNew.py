@@ -13,7 +13,7 @@ subprocess.call(["wget", url, "-P", save_path])
 f = open('basic.conf','r')
 str1 = f.read()
 f.close()
-f = open(save_path),'r')
+f = open(save_path,'r')
 str2 = r.read()
 f.close()
 
