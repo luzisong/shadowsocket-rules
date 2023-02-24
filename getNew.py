@@ -8,7 +8,7 @@ save_path = "./new.txt"
 url = 'https://raw.githubusercontent.com/deezertidal/shadowrocket-rules/main/shadowrocket_basic.conf'
 
 # 使用wget命令下载文件
-subprocess.call(["wget", url, "-P", save_path])               
+subprocess.call(["wget", url, "-O", save_path])               
 
 f = open('basic.conf','r')
 str1 = f.read()
